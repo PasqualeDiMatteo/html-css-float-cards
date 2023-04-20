@@ -21,3 +21,50 @@ h1{
     color: rgb(229, 49, 112);
     font-size: 3rem;
 }
+
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(01, 189, 225);
+}
+
+/* utilities */
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* cards */
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.card{
+    background-color: black;
+    color: white;
+     width: calc(100% / 3 - 2rem);
+}
+
+.card-info{
+    margin: 15px 0;
+}
+
