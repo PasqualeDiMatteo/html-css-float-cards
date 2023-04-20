@@ -10,22 +10,29 @@ body{
     font-family: "fredoka", sans-serif;
 }
 
+:root{
+    --margin-card: 1rem;
+    --margin-header: 5rem;
+    --size-img: 100px;
+
+}
+
 /* header */
 
 header{
     text-align: center;
-    padding:5rem;  
+    padding: var(--margin-header);  
 }
 
 h1{
     color: rgb(229, 49, 112);
     font-size: 3rem;
 }
-
+ /* Main */
 p{
     text-align: center;
     font-size: 1.3rem;
-    margin-bottom: 4rem;
+    margin-bottom: var(--margin-header);
 }
 
 a{
@@ -53,17 +60,17 @@ a{
 /* cards */
 
 img{
-    width: 100px;
-    height: 100px;
-    margin-right: 1rem;
+    width: var(--size-img);
+    height: var(--size-img);
+    margin-right: var(--margin-card);
 }
 
 .card{
     background-color: black;
     color: white;
-    width: calc(100% / 3 - 1rem);
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    width: calc(100% / 3 - (var(--margin-card)));
+    margin-right: var(--margin-card);
+    margin-bottom: var(--margin-card);
 }
 
 .card-info{
