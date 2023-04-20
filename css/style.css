@@ -9,3 +9,15 @@
 body{
     font-family: "fredoka", sans-serif;
 }
+
+/* header */
+
+header{
+    text-align: center;
+    padding:5rem;  
+}
+
+h1{
+    color: rgb(229, 49, 112);
+    font-size: 3rem;
+}
